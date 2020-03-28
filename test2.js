@@ -1,5 +1,5 @@
-const counter2 = require('./test1');
-import * as counter from './test3';
+import * as counter from './test1';
+const counter2 = require('./test3');
 
 console.log(counter.counter); // 1
 counter.increment();
